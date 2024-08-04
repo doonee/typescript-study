@@ -48,12 +48,12 @@ let nullType: null = anyValue;
  */
 anyType = unknownValue;
 unknownType = unknownValue;
-booleanType = unknownValue; // error
-arrayType = unknownValue; // error
-objectType = unknownValue; // error
-numberType = unknownValue; // error
-undefinedType = unknownValue; // error
-nullType = unknownValue; // error
+// booleanType = unknownValue; // error
+// arrayType = unknownValue; // error
+// objectType = unknownValue; // error
+// numberType = unknownValue; // error
+// undefinedType = unknownValue; // error
+// nullType = unknownValue; // error
 
 /**
  * any type에서는 자체 내장함수를 사용할 수 있지만, unknown type에서는 사용할 수 없다.
@@ -97,8 +97,8 @@ type IntersectionType3 = unknown & any; // any
  */
 let number1: unknown = 10;
 let number2: unknown = 20;
-number1 + number2; // error
-number1 - number2; // error
+// number1 + number2; // error
+// number1 - number2; // error
 
 // unknown type에서 가능한 연산들
 number1 === number2;
